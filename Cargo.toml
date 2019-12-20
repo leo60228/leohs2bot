@@ -1,0 +1,18 @@
+[package]
+name = "leohs2bot"
+version = "0.1.0"
+authors = ["leo60228 <iakornfeld@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.15.0"
+async-std = { version = "1.4.0", features = ["attributes"] }
+serde = { version = "1.0.104", features = ["derive"] }
+anyhow = "1.0.25"
+http-client = "1.1.1"
+base64 = "0.11.0"
+
+[dependencies.surf]
+git = "https://github.com/http-rs/surf.git"
